@@ -1,0 +1,698 @@
+City,Type,Index
+"Abilene, TX",metro,91
+"Akron, OH",metro,89.7
+"Albany, GA",metro,83.8
+"Albany, OR",metro,93.6
+"Albany, NY",metro,99.7
+"Schenectady, NY",metro,99.7
+"Troy, NY",metro,99.7
+"Albuquerque, NM",metro,97.4
+"Alexandria, LA",metro,88.3
+"Allentown, PA",metro,100.4
+"Allentown, NJ",metro,100.4
+"Bethlehem, PA",metro,100.4
+"Bethlehem, NJ",metro,100.4
+"Easton, PA",metro,100.4
+"Easton, NJ",metro,100.4
+"Altoona, PA",metro,89.5
+"Amarillo, TX",metro,93
+"Ames, IA",metro,91.3
+"Anchorage, AK",metro,109.4
+"Ann Arbor, MI",metro,101.9
+"Anniston, AL",metro,84.1
+"Oxford, AL",metro,84.1
+"Jacksonville, AL",metro,84.1
+"Appleton, WI",metro,92.4
+"Asheville, NC",metro,93
+"Athens, GA",metro,91.6
+"Clarke County, GA",metro,91.6
+"Atlanta, GA",metro,96.1
+"Sandy Springs, GA",metro,96.1
+"Roswell, GA",metro,96.1
+"Atlantic City, NJ",metro,105.1
+"Hammonton, NJ",metro,105.1
+"Auburn, AL",metro,84.7
+"Opelika, AL",metro,84.7
+"Augusta, GA",metro,88.7
+"Augusta, SC",metro,88.7
+"Richmond County, GA",metro,88.7
+"Richmond County, SC",metro,88.7
+"Austin, TX",metro,99.5
+"Round Rock, TX",metro,99.5
+"Bakersfield, CA",metro,97.9
+"Baltimore, MD",metro,107.5
+"Columbia, MD",metro,107.5
+"Towson, MD",metro,107.5
+"Bangor, ME",metro,95.9
+"Barnstable Town, MA",metro,102.5
+"Baton Rouge, LA",metro,92.9
+"Battle Creek, MI",metro,91.1
+"Bay City, MI",metro,88.6
+"Beaumont, TX",metro,90.2
+"Port Arthur, TX",metro,90.2
+"Beckley, WV",metro,79.7
+"Bellingham, WA",metro,100.4
+"Bend, OR",metro,96.9
+"Redmond, OR",metro,96.9
+"Billings, MT",metro,98.8
+"Binghamton, NY",metro,95.1
+"Birmingham, AL",metro,89.2
+"Hoover, AL",metro,89.2
+"Bismarck, ND",metro,94.2
+"Blacksburg, VA",metro,89.4
+"Christiansburg, VA",metro,89.4
+"Radford, VA",metro,89.4
+"Bloomington, IL",metro,94.1
+"Bloomington, IN",metro,94.6
+"Bloomsburg, PA",metro,93.7
+"Berwick, PA",metro,93.7
+"Boise City, ID",metro,95.2
+"Boston, MA",metro,110.3
+"Boston, NH",metro,110.3
+"Cambridge, MA",metro,110.3
+"Cambridge, NH",metro,110.3
+"Newton, MA",metro,110.3
+"Newton, NH",metro,110.3
+"Boulder, CO",metro,110.1
+"Bowling Green, KY",metro,85.7
+"Bremerton, WA",metro,106
+"Silverdale, WA",metro,106
+"Bridgeport, CT",metro,120.1
+"Stamford, CT",metro,120.1
+"Norwalk, CT",metro,120.1
+"Brownsville, TX",metro,84
+"Harlingen, TX",metro,84
+"Brunswick, GA",metro,86.6
+"Buffalo, NY",metro,93.9
+"Cheektowaga, NY",metro,93.9
+"Niagara Falls, NY",metro,93.9
+"Burlington, NC",metro,90
+"Burlington, VT",metro,103.2
+"South Burlington, VT",metro,103.2
+"California, MD",metro,98.7
+"Lexington Park, MD",metro,98.7
+"Canton, OH",metro,89
+"Massillon, OH",metro,89
+"Cape Coral, FL",metro,95.4
+"Fort Myers, FL",metro,95.4
+"Cape Girardeau, MO",metro,82.7
+"Cape Girardeau, IL",metro,82.7
+"Carbondale, IL",metro,83.9
+"Marion, IL",metro,83.9
+"Carson City, NV",metro,95.3
+"Casper, WY",metro,98.1
+"Cedar Rapids, IA",metro,89.8
+"Chambersburg, PA",metro,93.6
+"Waynesboro, PA",metro,93.6
+"Champaign, IL",metro,93.9
+"Urbana, IL",metro,93.9
+"Charleston, WV",metro,87.5
+"Charleston, SC",metro,96.1
+"North Charleston, SC",metro,96.1
+"Charlotte, NC",metro,93.5
+"Charlotte, SC",metro,93.5
+"Concord, NC",metro,93.5
+"Concord, SC",metro,93.5
+"Gastonia, NC",metro,93.5
+"Gastonia, SC",metro,93.5
+"Charlottesville, VA",metro,98.1
+"Chattanooga, TN",metro,89.9
+"Chattanooga, GA",metro,89.9
+"Cheyenne, WY",metro,98.1
+"Chicago, IL",metro,104.6
+"Chicago, IN",metro,104.6
+"Chicago, WI",metro,104.6
+"Naperville, IL",metro,104.6
+"Naperville, IN",metro,104.6
+"Naperville, WI",metro,104.6
+"Elgin, IL",metro,104.6
+"Elgin, IN",metro,104.6
+"Elgin, WI",metro,104.6
+"Chico, CA",metro,99.7
+"Cincinnati, OH",metro,89.2
+"Cincinnati, KY",metro,89.2
+"Cincinnati, IN",metro,89.2
+"Clarksville, TN",metro,91
+"Clarksville, KY",metro,91
+"Cleveland, TN",metro,84.4
+"Cleveland, OH",metro,89.7
+"Elyria, OH",metro,89.7
+"Coeur d'Alene, ID",metro,93.5
+"College Station, TX",metro,93.5
+"Bryan, TX",metro,93.5
+"Colorado Springs, CO",metro,100.2
+"Columbia, MO",metro,92.2
+"Columbia, SC",metro,91.7
+"Columbus, GA",metro,89.4
+"Columbus, AL",metro,89.4
+"Columbus, IN",metro,87.7
+"Columbus, OH",metro,93.1
+"Corpus Christi, TX",metro,93.4
+"Corvallis, OR",metro,99.2
+"Crestview, FL",metro,95.1
+"Fort Walton Beach, FL",metro,95.1
+"Destin, FL",metro,95.1
+"Cumberland, MD",metro,87.7
+"Cumberland, WV",metro,87.7
+"Dallas, TX",metro,100
+"Fort Worth, TX",metro,100
+"Arlington, TX",metro,100
+"Dalton, GA",metro,84.2
+"Danville, IL",metro,81.2
+"Daphne, AL",metro,91.2
+"Fairhope, AL",metro,91.2
+"Foley, AL",metro,91.2
+"Davenport, IA",metro,90.5
+"Davenport, IL",metro,90.5
+"Moline, IA",metro,90.5
+"Moline, IL",metro,90.5
+"Rock Island, IA",metro,90.5
+"Rock Island, IL",metro,90.5
+"Dayton, OH",metro,90.5
+"Decatur, AL",metro,86.5
+"Decatur, IL",metro,87.6
+"Deltona, FL",metro,95.5
+"Daytona Beach, FL",metro,95.5
+"Ormond Beach, FL",metro,95.5
+"Denver, CO",metro,106
+"Aurora, CO",metro,106
+"Lakewood, CO",metro,106
+"Des Moines, IA",metro,95
+"West Des Moines, IA",metro,95
+"Detroit, MI",metro,96.6
+"Warren, MI",metro,96.6
+"Dearborn, MI",metro,96.6
+"Dothan, AL",metro,84.9
+"Dover, DE",metro,94.2
+"Dubuque, IA",metro,92.3
+"Duluth, MN",metro,90.8
+"Duluth, WI",metro,90.8
+"Durham, NC",metro,95.3
+"Chapel Hill, NC",metro,95.3
+"East Stroudsburg, PA",metro,98.9
+"Eau Claire, WI",metro,91.7
+"El Centro, CA",metro,89.6
+"Elizabethtown, KY",metro,86.1
+"Fort Knox, KY",metro,86.1
+"Elkhart, IN",metro,90.9
+"Goshen, IN",metro,90.9
+"Elmira, NY",metro,94.6
+"El Paso, TX",metro,89.3
+"Enid, OK M",metro,90
+"Erie, PA",metro,92.4
+"Eugene, OR",metro,98.5
+"Evansville, IN",metro,90
+"Evansville, KY",metro,90
+"Fairbanks, AK",metro,106.4
+"Fargo, ND",metro,92.9
+"Fargo, MN",metro,92.9
+"Farmington, NM",metro,90.2
+"Fayetteville, NC",metro,90.7
+"Fayetteville, AR",metro,89.8
+"Fayetteville, MO",metro,89.8
+"Springdale, AR",metro,89.8
+"Springdale, MO",metro,89.8
+"Rogers, AR",metro,89.8
+"Rogers, MO",metro,89.8
+"Flagstaff, AZ",metro,98.6
+"Flint, MI",metro,91.5
+"Florence, SC",metro,85.8
+"Florence, AL",metro,83.8
+"Muscle Shoals, AL",metro,83.8
+"Fond du Lac, WI",metro,87.3
+"Fort Collins, CO",metro,102.2
+"Fort Smith, AR",metro,85.4
+"Fort Smith, OK",metro,85.4
+"Fort Wayne, IN",metro,90.1
+"Fresno, CA",metro,97.2
+"Gadsden, AL",metro,84.5
+"Gainesville, FL",metro,94.6
+"Gainesville, GA",metro,89.2
+"Gettysburg, PA",metro,95.8
+"Glens Falls, NY",metro,96.3
+"Goldsboro, NC",metro,87.8
+"Grand Forks, ND",metro,94.1
+"Grand Forks, MN",metro,94.1
+"Grand Island, NE",metro,85.8
+"Grand Junction, CO",metro,94.4
+"Grand Rapids, MI",metro,93.7
+"Wyoming, MI",metro,93.7
+"Grants Pass, OR",metro,93.9
+"Great Falls, MT",metro,93.9
+"Greeley, CO",metro,99.7
+"Green Bay, WI",metro,91.6
+"Greensboro, NC",metro,90
+"High Point, NC",metro,90
+"Greenville, NC",metro,88.4
+"Greenville, SC",metro,89.8
+"Anderson, SC",metro,89.8
+"Mauldin, SC",metro,89.8
+"Gulfport, MS",metro,89.5
+"Biloxi, MS",metro,89.5
+"Pascagoula, MS",metro,89.5
+"Hagerstown, MD",metro,100.6
+"Hagerstown, WV",metro,100.6
+"Martinsburg, MD",metro,100.6
+"Martinsburg, WV",metro,100.6
+"Hammond, LA",metro,86.1
+"Hanford, CA",metro,92.7
+"Corcoran, CA",metro,92.7
+"Harrisburg, PA",metro,96
+"Carlisle, PA",metro,96
+"Harrisonburg, VA",metro,89.9
+"Hartford, CT",metro,100.8
+"West Hartford, CT",metro,100.8
+"East Hartford, CT",metro,100.8
+"Hattiesburg, MS",metro,82.6
+"Hickory, NC",metro,87.5
+"Lenoir, NC",metro,87.5
+"Morganton, NC",metro,87.5
+"Hilton Head Island, SC",metro,94.1
+"Bluffton, SC",metro,94.1
+"Beaufort, SC",metro,94.1
+"Hinesville, GA",metro,90.5
+"Homosassa Springs, FL",metro,88
+"Hot Springs, AR",metro,85.2
+"Houma, LA",metro,91.5
+"Thibodaux, LA",metro,91.5
+"Houston, TX",metro,100.9
+"The Woodlands, TX",metro,100.9
+"Sugar Land, TX",metro,100.9
+"Huntington, WV",metro,86.4
+"Huntington, KY",metro,86.4
+"Huntington, OH",metro,86.4
+"Ashland, WV",metro,86.4
+"Ashland, KY",metro,86.4
+"Ashland, OH",metro,86.4
+"Huntsville, AL",metro,89.9
+"Idaho Falls, ID",metro,89.4
+"Indianapolis, IN",metro,93.1
+"Carmel, IN",metro,93.1
+"Anderson, IN",metro,93.1
+"Iowa City, IA",metro,96.2
+"Ithaca, NY",metro,105.2
+"Jackson, MI",metro,89.9
+"Jackson, MS",metro,90.2
+"Jackson, TN",metro,82.1
+"Jacksonville, FL",metro,95.8
+"Jacksonville, NC",metro,93.2
+"Janesville, WI",metro,91.9
+"Beloit, WI",metro,91.9
+"Jefferson City, MO",metro,82.4
+"Johnson City, TN",metro,88
+"Johnstown, PA",metro,85.7
+"Jonesboro, AR",metro,81.9
+"Joplin, MO",metro,88.1
+"Kahului, HI",metro,107.1
+"Wailuku, HI",metro,107.1
+"Lahaina, HI",metro,107.1
+"Kalamazoo, MI",metro,91.9
+"Portage, MI",metro,91.9
+"Kankakee, IL",metro,97.5
+"Kansas City, MO",metro,93.7
+"Kansas City, KS",metro,93.7
+"Kennewick, WA",metro,97.8
+"Richland, WA",metro,97.8
+"Killeen, TX",metro,92.1
+"Temple, TX",metro,92.1
+"Kingsport, TN",metro,85.2
+"Kingsport, VA",metro,85.2
+"Bristol, TN",metro,85.2
+"Bristol, VA",metro,85.2
+"Bristol, TN",metro,85.2
+"Bristol, VA",metro,85.2
+"Kingston, NY",metro,103.6
+"Knoxville, TN",metro,89.3
+"Kokomo, IN",metro,86.4
+"La Crosse, WI",metro,92.9
+"La Crosse, MN",metro,92.9
+"Onalaska, WI",metro,92.9
+"Onalaska, MN",metro,92.9
+"Lafayette, LA",metro,89.2
+"Lafayette, IN",metro,93.5
+"West Lafayette, IN",metro,93.5
+"Lake Charles, LA",metro,89
+"Lake Havasu City, AZ",metro,93
+"Kingman, AZ",metro,93
+"Lakeland, FL",metro,92.9
+"Winter Haven, FL",metro,92.9
+"Lancaster, PA",metro,98.7
+"Lansing, MI",metro,93.3
+"East Lansing, MI",metro,93.3
+"Laredo, TX",metro,88.8
+"Las Cruces, NM",metro,92.3
+"Las Vegas, NV",metro,98.7
+"Henderson, NV",metro,98.7
+"Paradise, NV",metro,98.7
+"Lawrence, KS",metro,93.2
+"Lawton, OK",metro,90.6
+"Lebanon, PA",metro,94.9
+"Lewiston, ID",metro,90.4
+"Lewiston, WA",metro,90.4
+"Lewiston, ME",metro,94.2
+"Auburn, ME",metro,94.2
+"Lexington, KY",metro,91.9
+"Fayette, KY",metro,91.9
+"Lima, OH",metro,88.7
+"Lincoln, NE",metro,92.8
+"Little Rock, AR",metro,90.9
+"North Little Rock, AR",metro,90.9
+"Conway, AR",metro,90.9
+"Logan, UT",metro,90.3
+"Logan, ID",metro,90.3
+"Longview, TX",metro,91.7
+"Longview, WA",metro,94.1
+"Los Angeles, CA",metro,117.6
+"Long Beach, CA",metro,117.6
+"Anaheim, CA",metro,117.6
+"Louisville/Jefferson County, KY",metro,91.2
+"Louisville/Jefferson County, IN",metro,91.2
+"Lubbock, TX",metro,93.4
+"Lynchburg, VA",metro,90.9
+"Macon, GA",metro,86.8
+"Bibb County, GA",metro,86.8
+"Madera, CA",metro,96.2
+"Madison, WI",metro,97.8
+"Manchester, NH",metro,107.9
+"Nashua, NH",metro,107.9
+"Manhattan, KS",metro,93.1
+"Mankato, MN",metro,89.2
+"North Mankato, MN",metro,89.2
+"Mansfield, OH",metro,85.9
+"McAllen, TX",metro,85.1
+"Edinburg, TX",metro,85.1
+"Mission, TX",metro,85.1
+"Medford, OR",metro,98.5
+"Memphis, TN",metro,91.5
+"Memphis, MS",metro,91.5
+"Memphis, AR",metro,91.5
+"Merced, CA",metro,95
+"Miami, FL",metro,106.8
+"Fort Lauderdale, FL",metro,106.8
+"West Palm Beach, FL",metro,106.8
+"Michigan City, IN",metro,85.6
+"La Porte, IN",metro,85.6
+"Midland, MI",metro,91.1
+"Midland, TX",metro,100.5
+"Milwaukee, WI",metro,95.7
+"Waukesha, WI",metro,95.7
+"West Allis, WI",metro,95.7
+"Minneapolis, MN",metro,102.4
+"Minneapolis, WI",metro,102.4
+"St. Paul, MN",metro,102.4
+"St. Paul, WI",metro,102.4
+"Bloomington, MN",metro,102.4
+"Bloomington, WI",metro,102.4
+"Missoula, MT",metro,96
+"Mobile, AL",metro,88
+"Modesto, CA",metro,98.7
+"Monroe, LA",metro,85.9
+"Monroe, MI",metro,94.6
+"Montgomery, AL",metro,89.3
+"Morgantown, WV",metro,91.3
+"Morristown, TN",metro,81.3
+"Mount Vernon, WA",metro,97.6
+"Anacortes, WA",metro,97.6
+"Muncie, IN",metro,88.6
+"Muskegon, MI",metro,87.9
+"Myrtle Beach, SC",metro,90.7
+"Myrtle Beach, NC",metro,90.7
+"Conway, SC",metro,90.7
+"Conway, NC",metro,90.7
+"North Myrtle Beach, SC",metro,90.7
+"North Myrtle Beach, NC",metro,90.7
+"Napa, CA",metro,120.1
+"Naples, FL",metro,100
+"Immokalee, FL",metro,100
+"Marco Island, FL",metro,100
+"Nashville, TN",metro,93.9
+"Davidson, TN",metro,93.9
+", TN",metro,93.9
+"Murfreesboro, TN",metro,93.9
+", TN",metro,93.9
+"Franklin, TN",metro,93.9
+"New Bern, NC",metro,86.7
+"New Haven, CT",metro,112.1
+"Milford, CT",metro,112.1
+"New Orleans, LA",metro,95.6
+"Metairie, LA",metro,95.6
+"New York, NY",metro,121.9
+"New York, NJ",metro,121.9
+"New York, PA",metro,121.9
+"Newark, NY",metro,121.9
+"Newark, NJ",metro,121.9
+"Newark, PA",metro,121.9
+"Jersey City, NY",metro,121.9
+"Jersey City, NJ",metro,121.9
+"Jersey City, PA",metro,121.9
+"Niles, MI",metro,89.4
+"Benton Harbor, MI",metro,89.4
+"North Port, FL",metro,98.8
+"Sarasota, FL",metro,98.8
+"Bradenton, FL",metro,98.8
+"Norwich, CT",metro,100.3
+"New London, CT",metro,100.3
+"Ocala, FL",metro,90.2
+"Ocean City, NJ",metro,106.8
+"Odessa, TX",metro,97.6
+"Ogden, UT",metro,95.6
+"Clearfield, UT",metro,95.6
+"Oklahoma City, OK",metro,92.1
+"Olympia, WA",metro,106.2
+"Tumwater, WA",metro,106.2
+"Omaha, NE",metro,93.7
+"Omaha, IA",metro,93.7
+"Council Bluffs, NE",metro,93.7
+"Council Bluffs, IA",metro,93.7
+"Orlando, FL",metro,97.8
+"Kissimmee, FL",metro,97.8
+"Sanford, FL",metro,97.8
+"Oshkosh, WI",metro,91.3
+"Neenah, WI",metro,91.3
+"Owensboro, KY",metro,87.5
+"Oxnard, CA",metro,116.1
+"Thousand Oaks, CA",metro,116.1
+"Ventura, CA",metro,116.1
+"Palm Bay, FL",metro,95.3
+"Melbourne, FL",metro,95.3
+"Titusville, FL",metro,95.3
+"Panama City, FL",metro,94.2
+"Parkersburg, WV",metro,86.3
+"Vienna, WV",metro,86.3
+"Pensacola, FL",metro,93
+"Ferry Pass, FL",metro,93
+"Brent, FL",metro,93
+"Peoria, IL",metro,91.7
+"Philadelphia, PA",metro,106.3
+"Philadelphia, NJ",metro,106.3
+"Philadelphia, DE",metro,106.3
+"Philadelphia, MD",metro,106.3
+"Camden, PA",metro,106.3
+"Camden, NJ",metro,106.3
+"Camden, DE",metro,106.3
+"Camden, MD",metro,106.3
+"Wilmington, PA",metro,106.3
+"Wilmington, NJ",metro,106.3
+"Wilmington, DE",metro,106.3
+"Wilmington, MD",metro,106.3
+"Phoenix, AZ",metro,97.2
+"Mesa, AZ",metro,97.2
+"Scottsdale, AZ",metro,97.2
+"Pine Bluff, AR",metro,83.5
+"Pittsburgh, PA",metro,94.7
+"Pittsfield, MA",metro,95.1
+"Pocatello, ID",metro,89.2
+"Portland, ME",metro,101
+"South Portland, ME",metro,101
+"Portland, OR",metro,101.8
+"Portland, WA",metro,101.8
+"Vancouver, OR",metro,101.8
+"Vancouver, WA",metro,101.8
+"Hillsboro, OR",metro,101.8
+"Hillsboro, WA",metro,101.8
+"Port St. Lucie, FL",metro,95.8
+"Prescott, AZ",metro,95.2
+"Providence, RI",metro,99.1
+"Providence, MA",metro,99.1
+"Warwick, RI",metro,99.1
+"Warwick, MA",metro,99.1
+"Provo, UT",metro,97.5
+"Orem, UT",metro,97.5
+"Pueblo, CO",metro,92.1
+"Punta Gorda, FL",metro,94.6
+"Racine, WI",metro,93.6
+"Raleigh, NC",metro,95.8
+"Rapid City, SD",metro,91.6
+"Reading, PA",metro,95.5
+"Redding, CA",metro,98.1
+"Reno, NV",metro,99.1
+"Richmond, VA",metro,96.1
+"Riverside, CA",metro,106.7
+"San Bernardino, CA",metro,106.7
+"Ontario, CA",metro,106.7
+"Roanoke, VA",metro,91.3
+"Rochester, MN",metro,93.6
+"Rochester, NY",metro,97.6
+"Rockford, IL",metro,90.6
+"Rocky Mount, NC",metro,85.1
+"Rome, GA",metro,80.2
+"Sacramento, CA",metro,102.6
+", CA",metro,102.6
+"Roseville, CA",metro,102.6
+", CA",metro,102.6
+"Arden, CA",metro,102.6
+"Arcade, CA",metro,102.6
+"Saginaw, MI",metro,89.1
+"St. Cloud, MN",metro,92.4
+"St. George, UT",metro,93.8
+"St. Joseph, MO",metro,88.2
+"St. Joseph, KS",metro,88.2
+"St. Louis, MO",metro,90.6
+"St. Louis, IL",metro,90.6
+"Salem, OR",metro,95.5
+"Salinas, CA",metro,108.5
+"Salisbury, MD",metro,90.2
+"Salisbury, DE",metro,90.2
+"Salt Lake City, UT",metro,100
+"San Angelo, TX",metro,93.9
+"San Antonio, TX",metro,94.4
+"New Braunfels, TX",metro,94.4
+"San Diego, CA",metro,116.6
+"Carlsbad, CA",metro,116.6
+"San Francisco, CA",metro,121.9
+"Oakland, CA",metro,121.9
+"Hayward, CA",metro,121.9
+"San Jose, CA",metro,124.1
+"Sunnyvale, CA",metro,124.1
+"Santa Clara, CA",metro,124.1
+"San Luis Obispo, CA",metro,107.3
+"Paso Robles, CA",metro,107.3
+"Arroyo Grande, CA",metro,107.3
+"Santa Cruz, CA",metro,122
+"Watsonville, CA",metro,122
+"Santa Fe, NM",metro,100.1
+"Santa Maria, CA",metro,109.4
+"Santa Barbara, CA",metro,109.4
+"Santa Rosa, CA",metro,118.5
+"Savannah, GA",metro,93.6
+"Scranton, PA",metro,92
+", PA",metro,92
+"Wilkes, PA",metro,92
+"Barre, PA",metro,92
+", PA",metro,92
+"Hazleton, PA",metro,92
+"Seattle, WA",metro,109.4
+"Tacoma, WA",metro,109.4
+"Bellevue, WA",metro,109.4
+"Sebastian, FL",metro,91.5
+"Vero Beach, FL",metro,91.5
+"Sebring, FL",metro,81.9
+"Sheboygan, WI",metro,90.9
+"Sherman, TX",metro,91.3
+"Denison, TX",metro,91.3
+"Shreveport, LA",metro,90.4
+"Bossier City, LA",metro,90.4
+"Sierra Vista, AZ",metro,89.7
+"Douglas, AZ",metro,89.7
+"Sioux City, IA",metro,88.7
+"Sioux City, NE",metro,88.7
+"Sioux City, SD",metro,88.7
+"Sioux Falls, SD",metro,92.4
+"South Bend, IN",metro,89.3
+"South Bend, MI",metro,89.3
+"Mishawaka, IN",metro,89.3
+"Mishawaka, MI",metro,89.3
+"Spartanburg, SC",metro,87.4
+"Spokane, WA",metro,95.6
+"Spokane Valley, WA",metro,95.6
+"Springfield, IL",metro,91.2
+"Springfield, MA",metro,97.3
+"Springfield, MO",metro,88.3
+"Springfield, OH",metro,87.8
+"State College, PA",metro,102.1
+"Staunton, VA",metro,87.6
+"Waynesboro, VA",metro,87.6
+"Stockton, CA",metro,100.4
+"Lodi, CA",metro,100.4
+"Sumter, SC",metro,87.7
+"Syracuse, NY",metro,95.9
+"Tallahassee, FL",metro,93.3
+"Tampa, FL",metro,100.7
+"St. Petersburg, FL",metro,100.7
+"Clearwater, FL",metro,100.7
+"Terre Haute, IN",metro,87.8
+"Texarkana, TX",metro,86.6
+"Texarkana, AR",metro,86.6
+"The Villages, FL",metro,91.7
+"Toledo, OH",metro,89.2
+"Topeka, KS",metro,89.4
+"Trenton, NJ",metro,112
+"Tucson, AZ",metro,97
+"Tulsa, OK",metro,91
+"Tuscaloosa, AL",metro,88.1
+"Tyler, TX",metro,94
+"Urban Honolulu, HI",metro,124.5
+"Utica, NY",metro,93.4
+"Rome, NY",metro,93.4
+"Valdosta, GA",metro,81.1
+"Vallejo, CA",metro,115.9
+"Fairfield, CA",metro,115.9
+"Victoria, TX",metro,94.1
+"Vineland, NJ",metro,100.1
+"Bridgeton, NJ",metro,100.1
+"Virginia Beach, VA",metro,98
+"Virginia Beach, NC",metro,98
+"Norfolk, VA",metro,98
+"Norfolk, NC",metro,98
+"Newport News, VA",metro,98
+"Newport News, NC",metro,98
+"Visalia, CA",metro,95.4
+"Porterville, CA",metro,95.4
+"Waco, TX",metro,91.5
+"Walla Walla, WA",metro,93.8
+"Warner Robins, GA",metro,89.5
+"Washington, DC",metro,119.1
+"Washington, VA",metro,119.1
+"Washington, MD",metro,119.1
+"Washington, WV",metro,119.1
+"Arlington, DC",metro,119.1
+"Arlington, VA",metro,119.1
+"Arlington, MD",metro,119.1
+"Arlington, WV",metro,119.1
+"Alexandria, DC",metro,119.1
+"Alexandria, VA",metro,119.1
+"Alexandria, MD",metro,119.1
+"Alexandria, WV",metro,119.1
+"Waterloo, IA",metro,90.8
+"Cedar Falls, IA",metro,90.8
+"Watertown, NY",metro,98.3
+"Fort Drum, NY",metro,98.3
+"Wausau, WI",metro,91.2
+"Weirton, WV",metro,85.6
+"Weirton, OH",metro,85.6
+"Steubenville, WV",metro,85.6
+"Steubenville, OH",metro,85.6
+"Wenatchee, WA",metro,94.9
+"Wheeling, WV",metro,86.3
+"Wheeling, OH",metro,86.3
+"Wichita, KS",metro,90.7
+"Wichita Falls, TX",metro,90.1
+"Williamsport, PA",metro,93
+"Wilmington, NC",metro,94
+"Winchester, VA",metro,91.6
+"Winchester, WV",metro,91.6
+"Winston, NC",metro,89.4
+"Salem, NC",metro,89.4
+"Worcester, MA",metro,103.5
+"Worcester, CT",metro,103.5
+"Yakima, WA",metro,94.7
+"York, PA",metro,96.2
+"Hanover, PA",metro,96.2
+"Youngstown, OH",metro,87.7
+"Youngstown, PA",metro,87.7
+"Warren, OH",metro,87.7
+"Warren, PA",metro,87.7
+"Boardman, OH",metro,87.7
+"Boardman, PA",metro,87.7
+"Yuba City, CA",metro,98.7
+"Yuma, AZ",metro,92.9

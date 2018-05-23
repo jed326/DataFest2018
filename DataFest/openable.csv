@@ -1,0 +1,20 @@
+date,companyId,jobId,country,stateProvince,city,avgOverallRating,numReviews,industry,normTitle,normTitleCategory,descriptionCharacterLength,descriptionWordCount,experienceRequired,estimatedSalary,salaryCurrency,jobLanguage,supervisingJob,licenseRequiredJob,educationRequirements,jobAgeDays,clicks,localClicks
+11/1/2016,company00000,job0000000,CA,ON,Cambridge,0,,,driver,driver,334,73,,40600,,EN,0,0,None,99,4,1
+11/1/2016,company00002,job0000002,US,AZ,Peoria,0,,,customer service representative,customer,3457,614,,22800,,EN,0,0,High School,99,12,2
+11/1/2016,company00003,job0000003,US,GA,Cartersville,3.7,71,,host/hostess,food,482,132,,22500,,EN,0,0,None,99,15,3
+11/1/2016,company00005,job0000005,US,AR,Malvern,5,46,,data entry clerk,admin,1115,222,,26100,,EN,0,0,High School,99,25,8
+11/1/2016,company00005,job0000006,US,AR,Augusta,5,46,,data entry clerk,admin,1148,228,,26200,,EN,0,0,High School,99,33,1
+11/1/2016,company00006,job0000007,CA,BC,Delta,3.7,120,,rigger,install,2043,340,,34300,,EN,0,0,High School,99,26,0
+11/1/2016,company00007,job0000008,US,GA,McDonough,0,,,nursing assistant,mednurse,2034,293,,25000,,EN,0,1,None,99,78,7
+11/2/2016,company00007,job0000008,US,GA,McDonough,0,,,nursing assistant,mednurse,2034,293,,25000,,EN,0,1,None,100,9,2
+11/1/2016,company00011,job0000012,DE,BY,Bayreuth,4,50,,,,2658,372,,20400,,DE,,,,99,6,3
+11/1/2016,company00018,job0000019,DE,BW,Schwäbisch Hall,0,,,,,554,109,,26400,,DE,,,,99,7,6
+11/2/2016,company00018,job0000019,DE,BW,Schwäbisch Hall,0,,,,,554,109,,26400,,DE,,,,100,20,3
+11/1/2016,company00019,job0000020,US,CO,Palmer Lake,0,,,handy man,construction,687,186,3,45700,,EN,0,1,None,99,21,2
+11/2/2016,company00019,job0000020,US,CO,Palmer Lake,0,,,handy man,construction,687,186,3,45700,,EN,0,1,None,100,18,2
+11/1/2016,company00021,job0000022,US,TX,San Antonio,0,,,concession manager,retail,1108,217,,22700,,EN,0,1,High School,99,18,0
+11/2/2016,company00022,job0000023,US,PA,Pittsburgh,3.5,50,CONSTRUCTION,plumber,install,1940,265,5,58900,,EN,0,1,None,99,19,3
+11/1/2016,company00023,job0000024,US,FL,Miami,0,,,staffing coordinator,admin,4649,768,1,33800,,EN,1,1,High School,98,20,20
+11/1/2016,company00027,job0000028,CA,ON,Innisfil,0,,,senior consultant,management,5792,874,5,83400,,EN,0,1,Higher Education,99,23,3
+11/2/2016,company00027,job0000028,CA,ON,Innisfil,0,,,senior consultant,management,5792,874,5,83400,,EN,0,1,Higher Education,100,15,2
+11/1/2016,company00029,job0000030,CA,NB,Saint John,3.6,16,,program facilitator,service,4103,661,5,42000,,EN,0,1,Higher Education,99,7,1
