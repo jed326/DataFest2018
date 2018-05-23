@@ -1,0 +1,96 @@
+---
+title: "DataFest"
+author: "Alex Chen"
+date: "April 13, 2018"
+output: html_document
+---
+
+Reading in the data
+```{r}
+library(data.table)
+fest = fread("/Users/luck_c/Desktop/Official College/PSU '17-'18/STAT380/STAT380/realfest.csv")
+head(fest,5)
+fest2 = fest
+
+#changing numerics
+fest2 = fest2[fest2$country == 'US',]
+fest3 = fest2[,c("date", "companyId", "jobId", "stateProvince", "city", "educationRequirements", "estimatedSalary")]
+fest2 = fest2[,c("date", "companyId", "jobId", "stateProvince", "city", "estimatedSalary")]
+fest3$date = as.POSIXct(strptime(fest3$date, '%Y-%m-%d'))
+fest3$stateProvince = as.factor(fest3$stateProvince)
+fest3$city = as.factor(fest3$city)
+#fest2$normTitleCategory = as.factor(fest2$normTitleCategory)
+#fest3$industry = as.factor(fest3$industry)
+fest3$estimatedSalary=as.numeric(fest3$estimatedSalary)
+fest3$educationRequirements = as.factor(fest3$educationRequirements)
+fest3$city[fest3$city == ""] = NA
+fest3$educationRequirements[fest3$educationRequirements == ""] = NA
+#fest2$educationRequirements[fest$educationRequirements == ""] = NA
+fest3 = fest3[complete.cases(fest3),]
+fest4 = fest3[!duplicated(fest3[,c("jobId")]),]
+remove = which(fest4$estimatedSalary == 0)
+fest4 = fest4[-remove,]
+```
+
+Splitting into seasons
+```{r}
+fest2Spring = fest2[fest2$date <= as.POSIXct("2017-05-31 23:59:59"),]
+fest2Spring = fest2Spring[fest2Spring$date >= as.POSIXct("2017-03-01 00:00:00"),]
+fest2Winter = fest2[fest2$date <= as.POSIXct("2017-02-28 00:00:00"),]
+fest2Winter = fest2Winter[fest2Winter$date >= as.POSIXct("2016-12-01 00:00:00"),]
+fest2Summer = fest2[fest2$date >= as.POSIXct("2017-06-01 00:00:00"),]
+fest2Summer = fest2Summer[fest2Summer$date <= as.POSIXct("2017-08-31 00:00:00"),]
+fest2Fall = fest2[fest2$date >= as.POSIXct("2017-09-01 00:00:00"),]
+fest2Fall = fest2Fall[fest2Fall$date <= as.POSIXct("2017-11-30 00:00:00"),]
+```
+
+City dataset
+```{r}
+fest4$location = paste(fest4$city, fest4$stateProvince, sep = ', ')
+cityIndex = read.csv("/Users/luck_c/Downloads/cityIndexSep.csv")
+fest4$index = mapvalues(fest4$location, from = cityIndex$City, to = cityIndex$Index)
+fest4Mapped = fest4[nchar(fest4$index) <= 5 ,]
+remove = which(nchar(fest4$index) <= 5)
+fest4UnMapped = fest4[-remove,]
+stateIndex = read.csv("/Users/luck_c/Downloads/cityIndexStates.csv")
+fest4UnMapped$index = fest4UnMapped$stateProvince
+fest4UnMapped$index = mapvalues(fest4UnMapped$index, from = stateIndex$City, to = stateIndex$Index)
+fest4UnMapped$index = as.numeric(levels(fest4UnMapped$index))[fest4UnMapped$index]
+
+fest4UnMapped = fest4UnMapped[complete.cases(fest4UnMapped),]
+
+fest4Total=rbind(fest4UnMapped,fest4Mapped)
+
+x=median(fest4Total$estimatedSalary)
+fest4Total$index = as.numeric(fest4Total$index)
+fest4Total = fest4Total[complete.cases(fest4Total),]
+fest4Total$COL=(fest4Total$index/100)*x
+
+fest4Total$subtract=fest4Total$estimatedSalary-fest4Total$COL
+
+write.csv(fest4Total,file="costofliving.csv")
+```
+
+```{r}
+fest4Total$industry=as.character(fest4Total$industry)
+for(x in seq(1,length(fest4Total$industry))){
+  if(grepl(",",fest4Total$industry[x])){
+    commaIndex=regexpr(",",fest4Total$industry[x])
+    cleanInd=substr(fest4Total$industry[x],1,commaIndex[1]-1)
+    fest4Total$industry[x]=cleanInd
+  }
+}
+
+fest4Total$industry=as.factor(fest4Total$industry)
+
+write.csv(fest4Total,file="education.csv")
+```
+
+
+
+
+State dataset
+```{r}
+stateIndex = read.csv("/Users/luck_c/Downloads/cityIndexStates.csv")
+```
+
